@@ -25,7 +25,7 @@ def index(request):
     dest3.desc = 'Beautiful City'
     dest3.img = 'destination_3.jpg'
     dest3.price = 750
-    dest3.offer = False
+    dest3.offer = True
 
     dests = [dest1, dest2, dest3]
 
